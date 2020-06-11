@@ -30,6 +30,17 @@ init();
       name: "project-description",
       message: "What type of project is it?"
     },
+    {
+      type: "input",
+      name: "school-question",
+      message: "Which school did you go to?"
+    },
+
+    {
+      type: "input",
+      name: "occupation-question",
+      message: "Where do you work?"
+    },
 
    
   ]) .then(function({ username }) {
@@ -72,4 +83,3 @@ init();
   function writeToFile(fileName, data) {
    }
   
- 
